@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\cvBlob">
+      <UniqueIdentifier>{0de63c32-2d8e-4e96-ac57-0e6208e3870b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\package_bgs">
+      <UniqueIdentifier>{10fc7ef2-07d9-4adb-9e1d-b3ba4af1ab83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CvblobTracking.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvaux.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvblob.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvcolor.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvcontour.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvlabel.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="cvBlob\cvtrack.cpp">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\AdaptiveBackgroundLearning.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\AdaptiveSelectiveBackgroundLearning.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\FrameDifferenceBGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\GMG.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\MixtureOfGaussianV1BGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\MixtureOfGaussianV2BGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\StaticFrameDifferenceBGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\WeightedMovingMeanBGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\WeightedMovingVarianceBGS.cpp">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CvblobTracking.h">
+      <Filter>原始程式檔</Filter>
+    </ClInclude>
+    <ClInclude Include="cvBlob\cvblob.h">
+      <Filter>標頭檔\cvBlob</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\AdaptiveBackgroundLearning.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\AdaptiveSelectiveBackgroundLearning.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\FrameDifferenceBGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\GMG.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\IBGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\MixtureOfGaussianV1BGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\MixtureOfGaussianV2BGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\StaticFrameDifferenceBGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\WeightedMovingMeanBGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\WeightedMovingVarianceBGS.h">
+      <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cvBlob\CMakeLists.txt">
+      <Filter>標頭檔\cvBlob</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
