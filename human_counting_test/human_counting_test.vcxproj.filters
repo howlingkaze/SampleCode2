@@ -19,6 +19,12 @@
     <Filter Include="標頭檔\package_bgs">
       <UniqueIdentifier>{10fc7ef2-07d9-4adb-9e1d-b3ba4af1ab83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="標頭檔\Vibe">
+      <UniqueIdentifier>{35ab80c8-c653-4084-9427-ad36760322b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\GmmWithLBP">
+      <UniqueIdentifier>{c056dfea-15e5-4a5e-85fe-59053da561d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -72,6 +78,12 @@
     <ClCompile Include="package_bgs\WeightedMovingVarianceBGS.cpp">
       <Filter>標頭檔\package_bgs</Filter>
     </ClCompile>
+    <ClCompile Include="Vibe\ViBe.cpp">
+      <Filter>標頭檔\Vibe</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkChannel.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CvblobTracking.h">
@@ -109,6 +121,12 @@
     </ClInclude>
     <ClInclude Include="package_bgs\WeightedMovingVarianceBGS.h">
       <Filter>標頭檔\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="Vibe\Vibe.h">
+      <Filter>標頭檔\Vibe</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkChannel.h">
+      <Filter>原始程式檔</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -14,5 +14,5 @@ class CvblobTracking
 public:
 	CvblobTracking();
 	~CvblobTracking();
-	void process(const cv::Mat &in, const cv::Mat &fore, cv::Mat &out);
+	void process(const cv::Mat &in, const cv::Mat &fore, cv::Mat &out,int frame_num);
 };

@@ -3,6 +3,6 @@
 <learningFrames>90</learningFrames>
 <alphaLearn>5.0000000000000003e-002</alphaLearn>
 <alphaDetection>5.0000000000000003e-002</alphaDetection>
-<threshold>35</threshold>
+<threshold>40</threshold>
 <showOutput>1</showOutput>
 </opencv_storage>

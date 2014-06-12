@@ -49,6 +49,7 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
     <CLRSupport>false</CLRSupport>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -68,7 +69,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ExecutablePath>E:\opencv247tbb\build_tbb\install\x64\vc11\bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>E:\opencv247tbb\build_tbb\install\include;E:\opencv247tbb\build_tbb\install\include\opencv;E:\opencv247tbb\build_tbb\install\include\opencv2;$(IncludePath)</IncludePath>
+    <IncludePath>E:\opencv247tbb\build_tbb\install\include;E:\opencv247tbb\build_tbb\install\include\opencv;E:\opencv247tbb\build_tbb\install\include\opencv2;E:\Boost\include;$(IncludePath)</IncludePath>
     <LibraryPath>E:\opencv247tbb\build_tbb\install\x64\vc11\lib;$(LibraryPath)</LibraryPath>
     <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
   </PropertyGroup>
@@ -130,6 +131,7 @@
     <ClCompile Include="cvBlob\cvcontour.cpp" />
     <ClCompile Include="cvBlob\cvlabel.cpp" />
     <ClCompile Include="cvBlob\cvtrack.cpp" />
+    <ClCompile Include="DarkChannel.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="package_bgs\AdaptiveBackgroundLearning.cpp" />
     <ClCompile Include="package_bgs\AdaptiveSelectiveBackgroundLearning.cpp" />
@@ -140,10 +142,12 @@
     <ClCompile Include="package_bgs\StaticFrameDifferenceBGS.cpp" />
     <ClCompile Include="package_bgs\WeightedMovingMeanBGS.cpp" />
     <ClCompile Include="package_bgs\WeightedMovingVarianceBGS.cpp" />
+    <ClCompile Include="Vibe\ViBe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CvblobTracking.h" />
     <ClInclude Include="cvBlob\cvblob.h" />
+    <ClInclude Include="DarkChannel.h" />
     <ClInclude Include="package_bgs\AdaptiveBackgroundLearning.h" />
     <ClInclude Include="package_bgs\AdaptiveSelectiveBackgroundLearning.h" />
     <ClInclude Include="package_bgs\FrameDifferenceBGS.h" />
@@ -154,6 +158,7 @@
     <ClInclude Include="package_bgs\StaticFrameDifferenceBGS.h" />
     <ClInclude Include="package_bgs\WeightedMovingMeanBGS.h" />
     <ClInclude Include="package_bgs\WeightedMovingVarianceBGS.h" />
+    <ClInclude Include="Vibe\Vibe.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="cvBlob\CMakeLists.txt" />
